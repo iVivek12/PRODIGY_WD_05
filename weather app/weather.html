@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="titleCard">
+        <p class="title"><span>Weather</span> APP</p>
+        <p class="desc">Get the weather details of any city!</p>
+        </div>
+        <div class="card">
+        <input id="cityInput" class="inputBox" type="text" placeholder="Enter the city">
+        <button id="searchBtn" class="btnSearch">Search</button>
+       </div>
+       
+       <div id="outputCard" class="output">
+        <div class="cityNameCard">
+        <p id="city-name"></p>
+        <p id="countryName"></p>
+        </div>
+        <div class="tempCard">
+            <p id="temp"></p><sup id="sup"></sup>
+        </div>
+        <p id="loc-time"></p>
+       </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
